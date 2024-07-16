@@ -1,0 +1,46 @@
+th , td input{
+    border:2px none bisque;
+    border-radius: 10px;
+    background-color: aliceblue;
+    
+text-align: center;
+
+}
+th{
+    font-size: large;
+    background-color:yellow;
+    
+}
+table{
+   
+    border-radius: 15px;
+    padding: 5px;
+   margin-left: 15%;
+   margin-top: 15%;
+   
+}
+
+tr:nth-child(even) input{
+   color: rgb(98, 0, 255);
+}
+td:hover input{
+    background-color: darkorange;
+}
+body{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(222, 221, 221);
+    background: linear-gradient( to top, rgb(78, 106, 196),rgb(138, 236, 243));
+    height: 100svh;
+    width: 100%;
+}
+button{
+  
+     width: fit-content;
+     height: fit-content;
+     font-size: larger;
+     text-align: center;
+     border-radius: 15px;
+     height: fit-content;
+     width: fit-content;
+}
